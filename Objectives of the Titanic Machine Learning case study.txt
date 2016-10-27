@@ -1,0 +1,9 @@
+Objectives of the Titanic Case Study
+
+1. To make predictions on the test data set in terms of which passengers are likely to Survive the sinking and which passengers are not.
+
+2. To carry out steps in Exploratory Data Analysis such as missing value imputation, the conversion of categorical variables into numeric variables and steps pertaining to Feature Engineering
+
+3. To make use of three types of Machine Learning algorithms - Logistic Regression and Ensemble techniques such as Random Forests and Gradient Boosting
+   and calculate the accuracy score for these algorithms utilizing K-Fold cross validation and make predictions on the test set utilizing all three algorithms
+   and thereby try and draw conclusions as to which algorithm is more advtangeous than the other. 
