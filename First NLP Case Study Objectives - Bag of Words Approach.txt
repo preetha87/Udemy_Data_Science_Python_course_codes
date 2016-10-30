@@ -1,0 +1,36 @@
+First Natural Language Processing Project - Objectives
+
+1. Take a corpus consisting of 5000 text messages to:
+
+a) Carry out steps in Exploratory Data Analysis such as:
+
+i) The construction of a function for:
+
+i) The removal of Stop words in text messages through the usage of the Stopwords Corpus of the Natural Language Tool Kit (NLTK)
+
+ii) The removal of puncuation marks in text messages
+
+iii) Conversion of each text message into a string of words
+
+b) Carry out Data Visualizations to account for important message characteristics (such as message length) 
+in the classification of messages into Spam / Ham categories
+
+2. Utilize the CountVectorizer from the feature_extraction.text library in Scikit-learn, to convert a list consisting of
+a sequence of characters from each of the text messages in the data set, to numerical features that Scikit-learn can work with!
+
+3. Utilize statistical measures such as Term Frequency and Inverse Document Frequency to evaluate how important a word is to a document in a collection or corpus. 
+
+The crux of the concepts of 'Term Frequency' and Inverse Document Frequency are such that the importance of a token or a term increases proportionally to the number of times a word appears in the document but this is offset by the frequency of the word in the corpus.
+The result will be in the form of a sparse matrix (with the count of each word appearing in each text message). This sparse matrix will contain many 0 counts. 
+
+4. Split the entire text message corpus into the training set and test set in the proportion of 70:30
+
+5. Fit a Multinomial Naive Bayes classifier to the training set(as a baseline classifier) to this binary classification problem of classifying texts into Spam and Ham
+and make predictions on the test set.
+
+6. Produce a report concerning metrics such as Precision, Recall, F-Score and the Confusion Matrix on the test set
+
+7. Construct a pipeline incorporating all of the above methodologies!
+
+A Bag of Words approach is being used here. 
+
